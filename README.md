@@ -1,5 +1,3 @@
-
-```markdown
 # Reelcraft — From Idea to Upload, One Studio
 
 Agentic toolkit for building and running a YouTube channel:
@@ -145,4 +143,3 @@ If you'd rather keep using Gemini and your key is the older `AIzaSy...` format:
   cause (YouTube changes things often) — update it: `pip install -U yt-dlp`.
 - A YouTube link with no captions falls back to downloading audio, so it's
   slower than a captioned link — this is expected, not an error.
-```
