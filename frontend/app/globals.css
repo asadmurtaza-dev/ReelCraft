@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #0D0E10;
+  color: #ECECEA;
+}
+
+::selection {
+  background: #22D3EE;
+  color: #0D0E10;
+}
+
+
+.glass-card {
+  position: relative;
+  background: #15171A;
+  border: 1px solid #262A30;
+  border-radius: 12px;
+  transition: border-color 160ms ease;
+}
+.glass-card-hover:hover {
+  border-color: rgba(34, 211, 238, 0.55);
+}
+
+textarea, input {
+  outline: none;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}
+.pulse-dot {
+  animation: pulseDot 1.4s ease-in-out infinite;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2E35;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22D3EE;
+}

@@ -13,6 +13,9 @@ backend/venv/
 frontend/node_modules/
 frontend/.next/
 
+# TypeScript
+*.tsbuildinfo
+
 # OS files
 .DS_Store
 Thumbs.db
